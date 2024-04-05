@@ -68,12 +68,7 @@ class MainActivity : AppCompatActivity() {
         CoroutineScope(Dispatchers.Main).launch {
             delay(delayMillis)
             createNotificationChannel()
-            val largeText = """
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Curabitur id turpis auctor, dapibus dolor eu, consectetur elit.
-            Nullam ac felis quis leo consequat auctor in a sem.
-            Sed ut sapien nec felis accumsan fermentum.
-        """.trimIndent()
+            val largeText = "This is large text enter in the notification"
             var builder = NotificationCompat.Builder(this@MainActivity, CHANNEL_ID)
                 .setLargeIcon(largeIcon)
                 .setSmallIcon(R.drawable.baseline_circle_notifications_24)
