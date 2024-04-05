@@ -3,4 +3,5 @@
     <string name="show_notification">Show Notification</string>
     <string name="channel_name">Channel Name</string>
     <string name="channel_description">Channel Description</string>
+    <string name="cancle_notification">Cancle Notification</string>
 </resources>
